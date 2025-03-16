@@ -37,12 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'history',
     'rest_framework',
+    'history',
     'corsheaders',
 ]
-
-ALLOWED_HOSTS = []
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
